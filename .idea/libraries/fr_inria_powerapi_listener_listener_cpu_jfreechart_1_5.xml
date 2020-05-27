@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="fr.inria.powerapi.listener:listener-cpu-jfreechart:1.5" type="repository">
+    <properties maven-id="fr.inria.powerapi.listener:listener-cpu-jfreechart:1.5" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/fr/inria/powerapi/listener/listener-cpu-jfreechart/1.5/listener-cpu-jfreechart-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jfree/jfreechart/1.0.13/jfreechart-1.0.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jfree/jcommon/1.0.16/jcommon-1.0.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/fr/inria/powerapi/core/1.5/core-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/fr/inria/powerapi/formula/formula-cpu-api/1.5/formula-cpu-api-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/fr/inria/powerapi/sensor/sensor-cpu-api/1.5/sensor-cpu-api-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.1/scala-library-2.9.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/typesafe/akka/akka-actor/2.0.1/akka-actor-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
