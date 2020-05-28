@@ -26,8 +26,6 @@ class Simulation {
       board.check_new_infections(infection_range, infection_ratio)
       information.addDay(day,board.count_alive(),board.count_infected(),board.count_recovered())
 
-//      println(information.getDay(day).toString())
-      // println("Day: "+day,"Alive: "+board.count_alive(),"Infected: "+board.count_infected(), "Recovered: "+board.count_recovered())
     }
     return information
   }

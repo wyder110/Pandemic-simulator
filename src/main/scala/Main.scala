@@ -25,6 +25,7 @@ object Main extends SimpleSwingApplication{
 
 
   def top = new MainFrame {
+
     title = "Simulation informations"
     //    contents = new FlowPanel(new Label(" Board size  =  "), board_size,
     //      new Label(" Objects number"), points_number)
@@ -40,7 +41,8 @@ object Main extends SimpleSwingApplication{
       contents += new FlowPanel(new Label("Daily death rate (%) =  "), death_rate)
       contents += new FlowPanel(startButton)
     }
-
+    import javax.swing.WindowConstants.HIDE_ON_CLOSE
+    peer.setDefaultCloseOperation(HIDE_ON_CLOSE)
     listenTo(startButton)
     reactions += {
       case ButtonClicked(component) if component == startButton =>

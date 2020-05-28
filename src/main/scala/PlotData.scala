@@ -19,7 +19,8 @@ class PlotData(data :Data)  extends SimpleSwingApplication{
     true, true, true)
 
   def top = new MainFrame {
-
+    import javax.swing.WindowConstants.HIDE_ON_CLOSE
+    peer.setDefaultCloseOperation(HIDE_ON_CLOSE)
 
     title = "Pandemic"
     this.minimumSize = new Dimension(1200,800)
